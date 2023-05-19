@@ -9,6 +9,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -319,7 +320,7 @@ a:hover {
 
 .navbar .nav {
     padding-top: 2px;
-    margin-right: -16px;
+    margin-right: 100px;
     float: right;
     z-index: 1;
 }
@@ -327,6 +328,7 @@ a:hover {
 .nav>li {
     float: left;
     margin-top: 4px;
+    margin-left: 1em;
     font-size: 16px;
 }
 
@@ -491,7 +493,11 @@ button {
 .icon-lg {
     font-size: 60px !important;
 }
-
+#Reference{
+    justify-content: center;
+    text-align: center;
+    font-size: 2.5em;
+}
 .sm-shadow {
     text-shadow: 0 1px 2px rgba(0, 0, 0, .3);
 }
@@ -644,23 +650,35 @@ a[data-lightbox]:hover img {
 
 .snapshot-lb .lightbox-caption {
     padding: 0;
-    color: rgba(0, 0, 0, .5);
+    color: rgba(10, 10, 10, .5);
     background: none;
 }
 
-h1,
 h2,
 h3,
 h4,
 h5,
 h6,
 p,
-label,
-.btn,
+article,
+.btn {
+    font-family: "helvetica";
+    font-weight: 400;
+    color: #4d4a96 !important;
+}
+
+
+
+
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #7a75f1 !important;
+    color: #7671b2 !important;
+}
+
+article {
+    margin-bottom: 1em;
+    margin-top: 1em;
 }
 
 .container {
@@ -697,6 +715,7 @@ p {
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
+    color: #ffffff;
 }
 
 .cta-hero {
@@ -790,17 +809,17 @@ h4 {
 }
 
 .tc-white {
-    color: #ab7ad6 !important;
+    color: #fff !important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF !important;
+    color: #000000 !important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956 !important;
-    color: #FFFFFF !important;
+    color: #000000 !important;
 }
 
 .ltc-white {
@@ -812,7 +831,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C !important;
+    color: #9f6145 !important;
 }
 
 .ltc-atomic-tangerine:hover {
