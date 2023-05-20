@@ -1,8 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    min-width: 1024px;
-    font-size: 1vw;
+    max-width: 1024px;
+    font-size: 2vw;
     background: #FFF;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
@@ -367,6 +367,9 @@ a:hover {
 }
 
 @media (min-width: 768px) {
+    body{
+        font-size: 1vw;
+    }
     .site-navigation {
         position: absolute;
         top: 50%;
@@ -673,7 +676,7 @@ article,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #7671b2 !important;
+    color: #F3976C !important;
 }
 
 article {
@@ -779,14 +782,15 @@ h4 {
 #row{
     display: flex;
     margin-left: 0em;
-}
-
-.Footer{
-    margin-left: 10em;
     color: #fff;
 }
 
-.footer>ul{
+.Footer{
+    margin-left: 15%;
+    color: #fff;
+}
+
+.footer>a{
     color: #fff;
 }
 .avatar {
@@ -873,6 +877,9 @@ h4 {
 }
 
 @media (max-width: 1024px) {
+    body{
+        font-size: 1vw;
+    }
     .bloc {
         padding-left: 20px;
         padding-right: 20px;
@@ -888,6 +895,9 @@ h4 {
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
+    body{
+        font-size: 1vw;
+    }
     .navbar .nav {
         max-width: 80%
     }
@@ -898,18 +908,28 @@ h4 {
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    body{
+        font-size: 1vw;
+    }
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+    body{
+        font-size: 1vw;
+    }
     .b-parallax {
+        
         background-attachment: scroll;
     }
 }
 
 @media (max-width: 991px) {
+    body{
+        font-size: 1vw;
+    }
     .container {
         width: 100%;
     }
@@ -944,6 +964,9 @@ h4 {
 }
 
 @media (max-width: 767px) {
+    body{
+        font-size: 1vw;
+    }
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -1112,6 +1135,9 @@ h4 {
 }
 
 @media (max-width: 400px) {
+    body{
+        font-size: 1vw;
+    }
     .bloc {
         padding-left: 0;
         padding-right: 0;
@@ -1119,6 +1145,9 @@ h4 {
 }
 
 @media (max-width: 767px) {
+    body{
+        font-size: 1vw;
+    }
     .bloc-mob-center-text {
         text-align: center;
     }
