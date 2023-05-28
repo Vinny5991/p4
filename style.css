@@ -94,7 +94,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("/P4/p4/img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -869,11 +869,11 @@ h4 {
 }
 
 .bg-atlanta-20made-20sign {
-    background-image: url("img/atlanta%20made%20sign.jpg");
+    background-image: url("/P4/p4/img/atlanta\ made\ sign.webp");
 }
 
 .bg-atlanta-20made-20sign-20orange {
-    background-image: url("img/atlanta%20made%20sign%20orange.jpg");
+    background-image: url("/P4/p4/img/atlanta\ made\ sign\ orange\ \(2\).webp");
 }
 
 @media (max-width: 1024px) {
@@ -990,7 +990,7 @@ h4 {
 
     .navbar .nav {
         padding-top: 0;
-        border-top: 1px solid rgba(0, 0, 0, .2);
+        border-top: none;
         float: none !important;
     }
 
