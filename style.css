@@ -676,6 +676,7 @@ article,
 a {
     font-family: "helvetica";
     font-weight: 400;
+    text-decoration: none;
     color: #F3976C !important;
 }
 
@@ -726,7 +727,7 @@ p {
     color: #FFFFFF !important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 1.0em;
+    font-size: 2.0em;
     font-weight: 700;
 }
 
@@ -1146,7 +1147,7 @@ h4 {
 
 @media (max-width: 767px) {
     body{
-        font-size: 1vw;
+        font-size: 0.5em;
     }
     .bloc-mob-center-text {
         text-align: center;
