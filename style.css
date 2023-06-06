@@ -365,6 +365,10 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+.col-sm-6{
+    width: 90%;
+    margin-left: 7%;
+}
 
 @media (min-width: 768px) {
     body{
@@ -377,6 +381,7 @@ a:hover {
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
+
 
     .nav>li .dropdown-menu a,
     .nav>li .dropdown-menu a:hover {
@@ -709,8 +714,14 @@ article {
 
 p {
     font-size: 12px;
+    margin-bottom: 3em;
 }
-
+.row.row-no-gutters{
+    display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-self:center;
+}
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -724,6 +735,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
+    margin-bottom: 0px;
     color: #FFFFFF !important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
@@ -734,6 +746,13 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+}
+
+#socials{
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 3em;
+    margin-bottom: 2em;
 }
 
 h2 {
@@ -760,6 +779,8 @@ h1 {
 
 h4 {
     color: #333333 !important;
+    padding-bottom: 1em;
+    font-size: 2em;
 }
 
 .icons {
