@@ -7,12 +7,17 @@
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	<code><meta name="robots" content="index, follow"></code>
+	<link rel="canonical" href="" />
 	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
 
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
+
 
 
 	<script src="./js/jquery-2.1.0.min.js"></script>
@@ -20,14 +25,14 @@
 	<script src="./js/blocs.min.js"></script>
 	<script src="./js/jqBootstrapValidation.js"></script>
 	<script src="./js/formHandler.js"></script>
-	<title>Contact GoMike</title>
-
-
-	<!-- Analytics -->
-
-	<!-- Analytics END -->
-
+	<script src="./js/jquery-2.1.0.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script src="./js/blocs.js"></script>
+	<script src="./js/jquery.touchSwipe.js"></script>
+	<script src="./js/gmaps.js"></script>
 </head>
+
+<title>Contact GoMike</title>
 
 <body>
 	<!-- Main container -->
@@ -39,13 +44,10 @@
 				<div class="container bloc-sm">
 					<nav class="navbar row">
 						<div class="navbar-header">
-							<a class="navbar-brand" href="./Index.html"><img
-									src="img/atlanta%20web%20design%20logo.png"
-									alt="GoMike Design webdesign company logo" height="40" /></a>
-
-							
+							<a class="navbar-brand" href="./Index.html"><img src="img/atlanta%20web%20design%20logo.png"
+									alt="GoMike Design webdesign company logo" height="40"></a>
 						</div>
-						
+
 					</nav>
 				</div>
 			</div>
@@ -82,34 +84,35 @@
 							<form id="form_1" novalidate success-msg="Your message has been sent."
 								fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 								<div class="form-group">
-									<article role=" name input box">
+									<article>
 										Name
 									</article>
-									<input id="name" class="form-control" required />
+									<input id="name" class="form-control" aria-label="name" required />
 								</div>
 								<div class="form-group">
-									<article role="e-mail input box">
+									<article>
 										E-mail
 									</article>
-									<input id="email" class="form-control" type="email" required />
+									<input id="email" class="form-control" type="email" aria-label="email" required />
 								</div>
 								<div class="form-group">
-									<article role="How did you find me input box">
+									<article>
 										How did you find me?
 									</article>
-									<input class="form-control" type="email" required id="input_504" />
+									<input class="form-control" type="email" aria-label="how did you find me" required
+										id="input_504" />
 								</div>
 								<div class="form-group">
-									<article role="project brief">
+									<article>
 										Project brief (Please be as detailed as possible including your company
 										<br>goals
 										and
 										any improvements you'd like to have over your current website)<br>
 									</article><textarea id="message" class="form-control" rows="4" cols="50"
-										required></textarea>
+										aria-label="project brief" required></textarea>
 								</div>
 								<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
-									type="submit" role="submit button">
+									type="submit">
 									Let's go Mike
 								</button>
 							</form>
@@ -119,7 +122,7 @@
 								mike@gomikedesigns.com<br>+1 (404) 555-1234<br> <br>123 Peachtree Ave. Atlanta,
 								GA<br>Available 9am–5pm, Mon-Fri <br> <br>Interested to learn about my freelace
 								services?
-								<br>Please visit my&nbsp;<a class="ltc-atomic-tangerine" href="index.html">other
+								<br>Please visit my <a class="ltc-atomic-tangerine" href="index.html">other
 									page</a>.
 							</p>
 						</div>
@@ -129,10 +132,6 @@
 		</main>
 		<!-- bloc-7 END -->
 
-		<!-- ScrollToTop Button -->
-		<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span
-				class="fa fa-chevron-up"></span></a>
-		<!-- ScrollToTop Button END-->
 
 
 		<!-- Footer - bloc-8 -->
@@ -144,30 +143,34 @@
 							<p class="text-center white">
 								GoMike Designs - Web designer living and loving Atlanta.<br>
 							</p>
-							<div class="row row-no-gutters social">
-								<div class="col-sm-3">
-									<div class="text-center">
-										<a class="social" href="Index.html"><span
-												class="fa fa-twitter icon-md"></span></a>
+							<div id="socials">
+								<div class="row row-no-gutters social">
+									<div class="col-sm-3">
+										<div class="text-center">
+											<a class="social" href="GoMike Design.html"><span
+													class="fa fa-twitter icon-md"></span></a>
+										</div>
 									</div>
-								</div>
-								<div class="col-sm-3">
-									<div class="text-center">
-										<a class="social" href="Index.html"><span
-												class="fa fa-facebook icon-md"></span></a>
+									<div class="col-sm-3">
+										<div class="text-center">
+											<a class="social" href="GoMike Design.html"><span
+													class="fa fa-facebook icon-md"></span></a>
+										</div>
 									</div>
-								</div>
-								<div class="col-sm-3">
-									<div class="text-center">
-										<a class="social" href="Index.html"><span
-												class="fa fa-dribbble icon-md"></span></a>
+									<div class="col-sm-3">
+										<div class="text-center">
+											<a class="social" href="GoMike Design.html"><span
+													class="fa fa-dribbble icon-md"></span></a>
+										</div>
 									</div>
-								</div>
-								<div class="col-sm-3">
-									<div class="text-center">
-										<a class="social" href="Index.html"><span
-												class="fa fa-instagram icon-md"></span></a>
+									<div class="col-sm-3">
+										<div class="text-center">
+											<a class="social" href="GoMike Design.html"><span
+													class="fa fa-instagram icon-md"></span></a>
+										</div>
 									</div>
+
+
 								</div>
 							</div>
 						</div>
@@ -175,7 +178,11 @@
 				</div>
 			</div>
 		</footer>
+
+
+
 		<!-- Footer - bloc-8 END -->
+
 
 	</div>
 	<!-- Main container END -->
